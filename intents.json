@@ -34,7 +34,7 @@
     {
       "tag":"age",
       "patterns": ["how old","how old are you?","what is your age","how old are you","age?","age"],
-      "responses":["I get reborn after every compilation","hey!","my owners are averagely 20 years!"]
+      "responses":["I get reborn after every compilation","I'm 3 months old","my owners are averagely 20 years!"]
      },
      {
       "tag":"name",
@@ -97,29 +97,54 @@
       "responses":["It seem that you are suffering from Asthma"]
      },
      {
+      "tag":"common cold medicines",
+      "patterns":["medicines for common cold?","medicines for common cold","common cold medicines","What medicines can I buy to help me with my common cold?"],
+      "responses":["medicines you can consume : Dextromethorphan, Decongestant, Diphenhydramine, Crocin Cold & Flu Max"]
+     },
+     {
       "tag":"common cold prevention",
-      "patterns":["medicines for common cold?","medicines for common cold","common cold medicines","What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
-      "responses":["medicines you can consume : Dextromethorphan,Decongestant,Diphenhydramine,Crocin Cold & Flu Max, preventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+      "patterns":["tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?","prevention for common cold?","common cold prevention"],
+      "responses":["Preventions that you must follow: Wash your hands, Avoid touching your face, Clean frequently used surfaces, Use hand sanitizers, SUGGESTED FOODS ARE: Garlic, Vitamin C–containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup"]
+     },
+     {
+      "tag":"fever medicines",
+      "patterns":["medicines for fever?","medicines for fever","fever medicines","What medicines can I buy to help me with my fever?"],
+      "responses":["medicines you can consume : acetaminophen, ibuprofen, aspirin, Crocin Cold & Flu Max"]
      },
      {
       "tag":"fever prevention",
-      "patterns":["medicines for fever?","medicines for fever","fever medicines","What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
-      "responses":["medicines you can consume : acetaminophen ,ibuprofen,aspirin,Crocin Cold & Flu Max, prevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+      "patterns":["tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?","prevention for fever","fever preventions?"],
+      "responses":["Prevention that you must follow :Wash your hands, Cover your mouth when you cough and your nose when you sneeze, Clean frequently used surfaces, Avoid sharing cups, glasses, and eating utensils with other people, SUGGESTED FOODS ARE:Garlic, Vitamin C–containing fruits, Leafy greens, Broccoli, Oatmeal, Spices, Chicken Soup"]
+     },
+     {
+      "tag":"diabetes medicines",
+      "patterns":["medicines for diabetes?","medicines for diabetes","diabetes medicines","What medicines can I buy to help me with my diabetes?"],
+      "responses":["medicines you can consume : Insulin, Amylinomimetic drug, Dipeptidyl peptidase-4 (DPP-4) inhibitor"]
      },
      {
       "tag":"diabetes prevention",
-      "patterns":["medicines for diabetes?","medicines for diabetes","diabetes medicines","What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
-      "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+      "patterns":["tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?","prevention for diabetes"],
+      "responses":["Prevention that you must follow: Cut Sugar and Refined Carbs From Your Diet, Work Out Regularly, Drink Water as Your Primary Beverage, Lose Weight If You’re Overweight or Obese, Quit Smoking, Follow a Very-Low-Carb Diet, Watch Portion Sizes, SUGGESTED FOODS ARE: Leafy greens, Avocados, Eggs"]
+     },
+     {
+      "tag":"depression medicines",
+      "patterns":["medicines for depression?","medicines for depression","depression medicines","What medicines can I buy to help me with my depression?"],
+      "responses":["medicines you can consume : brexpiprazole, quetiapine, olanzapine"]
      },
      {
       "tag":"depression prevention",
-      "patterns":["medicines for depression?","medicines for depression","depression medicines","What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
-      "responses":["medicines you can consume :  brexpiprazole, quetiapine,olanzapine, prevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+      "patterns":["tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?","prevention for depression"],
+      "responses":["Prevention that you must follow : Exercise regularly, Cut back on social media time, Drink Water as Your Primary Beverage, Build strong relationships, Minimize your daily choices, Follow a Very-Low-Carb Diet, SUGGESTED FOODS ARE: Get Enough Vitamin D, Include Omega-3 Fatty Acids, Beans and legumes"]
+     },
+     {
+      "tag":"asthma medicines",
+      "patterns":["medicines for asthma?","medicines for asthma","asthma medicines","What medicines can I buy to help me with my asthma?"],
+      "responses":["medicines you can consume : epinephrine, anticholinergic, Proair HFA"]
      },
      {
       "tag":"asthma prevention",
-      "patterns":["medicines for asthma?","medicines for asthma","asthma medicines","What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
-      "responses":["medicines you can consume : epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+      "patterns":["tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?","prvention for asthama"],
+      "responses":["Prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens, Avoid Smoke of Any Type, SUGGESTED FOODS ARE: carrots, juice, eggs, broccoli, cantaloupe, milk"]
      },
      {
       "tag":"Consultation",
