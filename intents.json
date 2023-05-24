@@ -150,36 +150,6 @@
       "tag":"Consultation",
       "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
       "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
-     },
-     {
-      "tag": "headache",
-      "patterns": ["I have a headache", "My head hurts", "How to relieve a headache?"],
-      "responses": ["You can try taking over-the-counter pain relievers like ibuprofen or acetaminophen. Applying a cold or warm compress to your head may also help. If your headache persists or worsens, it's best to consult a healthcare professional."]
-    },
-    {
-      "tag": "allergy",
-      "patterns": ["I have allergies", "What are common allergy symptoms?", "How to manage allergies?"],
-      "responses": ["Common allergy symptoms include sneezing, itching, runny or stuffy nose, watery eyes, and skin rashes. To manage allergies, you can try avoiding allergens, using over-the-counter antihistamines, or seeking prescription medications from a doctor."]
-    },
-    {
-      "tag": "rash",
-      "patterns": ["I have a rash", "What causes skin rashes?", "How to treat a skin rash?"],
-      "responses": ["Skin rashes can have various causes, including allergies, infections, or underlying medical conditions. The treatment for a skin rash depends on the underlying cause. It's recommended to consult a healthcare professional for a proper diagnosis and appropriate treatment."]
-    },
-    {
-      "tag": "weight_loss",
-      "patterns": ["How can I lose weight?", "Tips for weight loss", "Healthy weight loss methods"],
-      "responses": ["To lose weight, it's important to maintain a balanced diet, engage in regular physical activity, and create a calorie deficit. Focus on eating whole foods, controlling portion sizes, and staying hydrated. It's advisable to consult a nutritionist or healthcare professional for personalized guidance."]
-    },
-    {
-      "tag": "insomnia",
-      "patterns": ["I have trouble sleeping", "How to overcome insomnia?", "Tips for better sleep"],
-      "responses": ["To improve sleep quality, establish a regular sleep schedule, create a calming bedtime routine, ensure a comfortable sleep environment, limit caffeine and electronic devices before bed, and manage stress levels. If insomnia persists, it's best to consult a healthcare professional."]
-    },
-    {
-      "tag": "heartburn",
-      "patterns": ["I have heartburn", "What causes heartburn?", "How to relieve heartburn?"],
-      "responses": ["Heartburn is often caused by acid reflux. To relieve heartburn, you can try over-the-counter antacids, avoid trigger foods, eat smaller meals, and maintain an upright position after eating. If symptoms persist or worsen, it's advisable to consult a healthcare professional."]
-    }
+     }
   ]
 }
